@@ -1,0 +1,20 @@
+
+<div class="content">
+	<div class="card">
+		<div class="stores">
+			<div *ngFor="let store of stores; let i = index" class="store" (click)="itemClick(store, i)">
+				<p class="name">
+					{{ store.store }}
+				</p>
+				<p class="address">
+					{{ store.address }}
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="area-map">
+		<agm-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom" [styles]="customStyle"> 
+			<agm-marker [iconUrl]="'assets/images/marker-g-map.png'" *ngFor="let m of stores; let i = index" [latitude]="m.latLong[0]" [longitude]="m.latLong[1]" [markerDraggable]="false"></agm-marker>
+		</agm-map>
+	</div>
+</div>

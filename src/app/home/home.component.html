@@ -1,0 +1,25 @@
+
+<div class="banner">
+	<div class="content">
+		<h1 class="title"> MyStore </h1>
+		<p> Roupas, calçados, acessórios, produtos de decoração e outros </p>
+		<a class="link" href="#/products"> Conheça nossos produtos </a>
+	</div>
+</div>
+<div class="content">
+	<div class="gallery-home">
+		<a *ngFor="let prod of allProducts; let i = index" (click)="goToProduct(prod.id)">
+			<div *ngIf="i % numberHome == 1">
+				<div class="item item-{{prod.id}}">
+					<div class="image-product" [ngStyle]="{'background-image':'url( assets/images/products/' + prod.photo + ')'}" ></div>
+					<div class="box-info">
+						<p class="name"> {{ prod.name }} </p>
+						<p class="price"> R$ {{ prod.price }} </p>
+						<p class="description"> R$ {{ prod.description }} </p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div> 
+</div>
+

@@ -1,0 +1,127 @@
+.content{
+	z-index: 0;
+	margin-top: 50px
+}
+.card{
+	z-index: 2;
+	position: absolute;
+	width: 350px;
+	max-height: 600px;
+	overflow-y: scroll;
+	background-color: #fff;
+}
+.stores{
+	padding-top: 30px;
+	display: inline-block;
+	.store{
+		cursor: pointer;
+		margin: 10px;
+		padding: 30px;
+		border: solid 1px #eee;
+		.name{
+			font-size: 20px;
+			border-bottom: dashed 1px #656565;
+			padding-bottom: 10px;
+		}
+		.address{
+			color: #999;
+		}
+	}
+}
+.area-map{
+	display: inline-block;
+	min-height: 600px;
+	max-height: 600px;
+	z-index: 1;
+	position: relative;
+	left: 350px;
+	top: 0px;
+	width: 850px;
+	agm-map {
+		display: block;
+		height: 600px;
+		width: 850px;
+		padding: 0;
+		margin: 0;
+		/*opacity: .6;*/
+	}
+	.agm-map-container-inner{
+		display: block;
+		margin: 0 auto
+	}
+}
+
+
+@media only screen and (max-width: 1270px){
+	.content{
+		min-width: 100%;
+		width: 100%;
+		max-width: 100%;
+		margin: 0 !important;
+		padding: 0px !important;
+		box-sizing: border-box !important;
+	}
+	.card{
+		width: 30% !important;
+	}
+	.area-map{
+		width: 68% !important;
+		left: 30% !important;
+		agm-map {
+			width: 100% !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.content{
+		min-width: 100%;
+		width: 100%;
+		max-width: 100%;
+		margin: 0 !important;
+		padding: 0px !important;
+		box-sizing: border-box !important;
+	}
+	.card{
+		width: 30% !important;
+	}
+	.area-map{
+		width: 68% !important;
+		left: 30% !important;
+		agm-map {
+			width: 100% !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 960px){
+	.content{
+		min-width: 100%;
+		width: 100%;
+		max-width: 100%;
+		margin: 0 !important;
+		padding: 0px !important;
+		box-sizing: border-box !important;
+	}
+	.card{
+		display: contents !important;
+		width: 100% !important;
+		height: unset !important;
+		overflow: unset !important;
+		position: relative;
+		text-align: center;
+		.stores{
+			margin: 0 auto;
+			display: block;
+			width: 70%;
+		}
+	}
+	.area-map{
+		display: none !important;
+		width: 68% !important;
+		left: 30% !important;
+		agm-map {
+			width: 100% !important;
+		}
+	}
+}

@@ -1,0 +1,254 @@
+
+$item-width: 250px;
+$i: 2;
+
+.content *{
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.filter{
+	margin-top: 40px;
+	padding: 0 50px;
+	margin-bottom: 40px;
+	.box-order{
+		display: inline-block;
+	}
+	.box-input{
+		padding: 0 20px;
+		display: inline-block;
+		.label{
+			display: inline-block;
+			font-family: 'Lato', sans-serif;
+			margin-right: 5px;
+		}
+		&.filter-input{
+			width: 40%;
+			background-image: url('assets/images/icon-search.png');
+			background-size: 20px 20px;
+			background-repeat: no-repeat;
+			background-position: 40px 10px;
+		}
+		input{
+			padding-left: 45px;
+			width: 100%;
+			display: block;
+			background: transparent;
+		}
+		select{
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background-color: transparent;
+			background-image: url('assets/images/icon-select.png');
+			background-repeat: no-repeat;
+			background-size: 15px 15px;
+			background-position: top 10px right 10px;
+		}
+	}
+}
+.gallery-products{
+	text-align: center;
+	min-height: 420px;
+	.item{
+		display: inline-block;
+		cursor: pointer;
+		max-height: 360px;
+		padding: 10px 10px;
+		margin: 10px 10px;
+		background: #fff;
+		&:hover{
+			background: #fefefe;
+			-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+			-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+			box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+		}
+		.box-info{
+			width: $item-width;
+			height: 80px;
+			padding: 0;
+			.name{
+				padding: 0;
+				margin: 0;
+				text-align: left;
+				font-size: 16px;
+				border-bottom: solid 1px #eee;
+				padding-top: 15px;
+				padding-bottom: 10px;
+			}
+			.price{
+				font-family: 'Nanum Pen Script', cursive;
+				font-size: 26px;
+				text-align: left;
+				padding-right: 20px;
+				margin-top: 0px;
+				box-sizing: border-box;
+				width: $item-width;
+			}
+			.description{
+				display: none;
+			}
+		}
+		.image-product{
+			width: $item-width;
+			height: $item-width;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: $item-width $item-width;
+		}
+	}
+}
+
+@media only screen and (max-width: 1080px){
+	.filter{
+		padding: 0 !important;
+		.filter-input{
+			margin: 0 auto;
+			display: block;
+			text-align: center;
+			width: 80% !important;
+			box-sizing: border-box;
+		}
+		.box-order{
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			width: 80% !important;
+			.box-input{
+				margin: 0 auto;
+				margin-top: 30px;
+				padding: 0 !important;
+				width: 49% !important;
+				.label{
+					width: 20%;
+					display: inline-block;
+				}
+				select{
+					width: 65%;
+				}
+			}
+		}
+	}
+	.gallery-products{
+		.item{}
+	}
+}
+@media only screen and (max-width: 1000px){
+	.box-order{
+		.box-input{
+			.label{
+				width: 30% !important;
+			}
+			select{
+				width: 55% !important;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 670px){
+	.filter{
+		.filter-input{
+			margin: 6% !important;
+			width: 87% !important;
+			input{
+				width: 100% !important;
+			}
+		}
+		.box-order{
+			.box-input{
+				margin-top: 15px !important;
+				display: block !important;
+				width: 100% !important;
+				padding: 0 !important;
+				.label{
+					width: 30% !important;
+				}
+				select{
+					width: 67% !important;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.box-input{
+		display: block !important;
+	}
+
+	.gallery-products{
+		.item{
+			width: 85% !important;
+			.box-info{
+				width: 40% !important;
+				max-width: 40% !important;
+				padding-top: 50px;
+				height: auto;
+				display: inline-block;
+				padding-left: 20px;
+				.name{
+
+				}
+				.price{
+
+				}
+				.description{
+
+				}
+			}
+			.image-product{
+				display: inline-block;
+				width: 45% !important;
+				vertical-align: top;
+				background-size: $item-width $item-width;
+			}
+			@for $i from 0 through 1000 {
+				@if ($i % 2) == 1 {
+					&.item-#{$i} { 
+						.box-info{
+							position: relative;
+							left: -50%;
+						}
+						.image-product{
+							position: relative;
+							left: 45%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 540px){
+	.gallery-products{
+		.item{
+			width: 85% !important;
+			min-height: 400px;
+			.box-info{
+				width: 80% !important;
+				max-width: 80% !important;
+				height: auto;
+				display: inline-block;
+				left: 0 !important;
+				padding-left: 20px;
+				.name{
+
+				}
+				.price{
+
+				}
+				.description{
+
+				}
+			}
+			.image-product{
+				left: 0 !important;
+				display: block;
+				width: 85% !important;
+				vertical-align: top;
+				background-size: $item-width $item-width;
+			}
+		}
+	}
+}

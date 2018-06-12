@@ -1,0 +1,67 @@
+/*
+ *	Header Styles
+ *	--------------
+ *	Classes do header
+ *
+ */
+
+.header-menu{
+	border-bottom: solid 2px #eee;
+	margin: 0;
+	height: 60px;
+	background: #fdfdfd;
+	z-index: 1;
+	.area-logo{
+		display: inline-block;
+		.img-logo{
+			width: 100px;
+			position: relative;
+			top: 18px;
+		}
+		.logo{
+			display: none;
+		}
+	}
+	.items-menu{
+		display: inline-block;
+		list-style: none;
+		li{
+			position: relative;
+			top: 4px;
+			display: inline-block;
+			a{
+				padding: 25px 30px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1280px){
+	.header-menu{
+		height: 100px;
+		padding: 20px 50px;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.header-menu{
+		padding: 0px 50px;
+	}
+}
+
+@media only screen and (max-width: 790px){
+	.header-menu{
+		height: 200px;
+		padding: 0 0px;
+		box-sizing: border-box;
+		.area-logo, .items-menu, .items-menu li{
+			display: block;
+			text-align: center;
+		}
+		.items-menu li{
+			padding: 20px 0;
+		}
+	}
+}

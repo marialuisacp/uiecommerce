@@ -1,0 +1,135 @@
+
+.footer-site{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	margin-top: 60px;
+	box-sizing: border-box;
+	border-top: solid 2px #eeeeee;
+	background-color: #121212;
+	background-image: url('assets/images/bg_footer.png');
+	/*background-size: 40px 40px;*/
+	&, *{
+		color: #999;
+	}
+	.logo{
+		width: 210px;
+		margin-bottom: 25px;
+	}
+	.copyright{
+		border-top: solid 1px #333;
+		text-align: center;
+		display: block;
+		padding-top: 30px;
+	}
+	.col-3{
+		width: 32.3333333%;
+		margin: 0;
+		display: inline-block;
+		text-align: center;
+	}
+	.title{
+		font-family: 'Nanum Pen Script', cursive;
+		font-size: 36px;
+	}
+	ul{
+		list-style: none;
+	}
+	.area-1 *{
+		text-align: left;
+	}
+	.area-2{
+		ul li{
+			padding: 10px 20px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.col-3{
+		width: 100% !important;
+		display: block !important;
+	}
+	.area-2{
+		display: none !important;
+	}
+}
+
+.area-footer .box-icons,
+.footer-home .box-icons {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-height: 80px;
+	min-height: 80px;
+}
+.area-footer .icon,
+.footer-home .icon {
+	background-image: url(assets/images/icons_social_networks.png);
+	background-color: transparent;
+	background-size: 250px 100px;
+	background-position: 250px 0;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px;
+	margin-top: 10px;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+.area-footer .icon:hover,
+.footer-home .icon:hover {
+	margin-bottom: 10px;
+	margin-top: 0;
+	background-image: url(assets/images/icons_social_networks.png);
+}
+.area-footer #icon-01,
+.footer-home #icon-01 {
+	background-position: 0 0;
+}
+.area-footer #icon-02,
+.footer-home #icon-02 {
+	background-position: -50px 0;
+}
+.area-footer #icon-03,
+.footer-home #icon-03 {
+	background-position: -100px 0;
+}
+.area-footer #icon-04,
+.footer-home #icon-04 {
+	background-position: -150px 0;
+}
+.area-footer #icon-05,
+.footer-home #icon-05 {
+	background-position: -200px 0;
+}
+.area-footer #icon-06,
+.footer-home #icon-06 {
+	background-position: 0 50px;
+}
+.area-footer #icon-07,
+.footer-home #icon-07 {
+	background-position: -50px 50px;
+}
+.area-footer #icon-08,
+.footer-home #icon-08 {
+	background-position: -100px 50px;
+}
+.area-footer #icon-09,
+.footer-home #icon-09 {
+	background-position: -150px 50px;
+}
+.area-footer #icon-10,
+.footer-home #icon-10 {
+	background-position: -200px 50px;
+}

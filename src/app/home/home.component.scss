@@ -1,0 +1,145 @@
+
+$item-width: 250px;
+$i: 2;
+
+.banner{
+	background-image: url('assets/images/banner.png');
+	background-position: center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 0px;
+	display: block;
+	height: 650px;
+	padding: 50px;
+	padding-top: 150px;
+	box-sizing: border-box;
+
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	.title{
+		font-family: 'Nanum Pen Script', cursive;
+		font-size: 196px;
+		text-align: left;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	p{
+		margin: 0;
+		padding: 0;
+		margin-bottom: 40px;
+		color: #ffffff;
+	}
+	.link{
+		color: #ffffff;
+		border: solid 1px #ffffff;
+		padding: 20px 30px;
+	}
+}
+.gallery-home{
+	text-align: center;
+	.item{
+		display: block;
+		width: 90%;
+		cursor: pointer;
+		padding: 10px 10px;
+		margin: 10px auto;
+		background: #fff;
+		&:hover{
+			background: #fefefe;
+			-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+			-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+			box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+		}
+		@for $i from 0 through 1000 {
+			@if ($i % 2) == 1 {
+				&.item-#{$i} { 
+					.box-info{
+						position: relative;
+						left: -50%;
+					}
+					.image-product{
+						position: relative;
+						left: 45%;
+					}
+				}
+			}
+		}
+		.box-info{
+			width: 40% !important;
+			max-width: 40% !important;
+			padding-top: 50px;
+			height: auto;
+			display: inline-block;
+			padding-left: 20px;
+			.name{
+				padding: 0;
+				margin: 0;
+				text-align: left;
+				font-size: 16px;
+				border-bottom: solid 1px #eee;
+				padding-top: 15px;
+				padding-bottom: 10px;
+			}
+			.price{
+				font-family: 'Nanum Pen Script', cursive;
+				font-size: 36px;
+				text-align: left;
+				padding-right: 20px;
+				margin-top: 0px;
+				box-sizing: border-box;
+				width: $item-width;
+			}
+			.description{
+				text-align: left;
+			}
+		}
+		.image-product{
+			display: inline-block;
+			width: 45% !important;
+			padding-bottom: 45%;
+			height: 0;
+			vertical-align: top;
+			background-position: center;
+			background-size: 500px 500px;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+@media only screen and (max-width: 750px){
+	.banner{
+		&, *{
+			text-align: center;
+		}
+		.title{
+			font-size: 96px;
+			text-align: center;
+		}
+	}
+	.gallery-home{
+		.item{
+			.box-info{
+				display: block;
+				width: 90% !important;
+				min-width: 90% !important;
+				position: relative;
+				left: 0 !important;
+			}
+			.image-product{
+				display: block;
+				width: 90% !important;
+				min-width: 90% !important;
+				position: relative;
+				left: 0 !important;
+				background-size: 700px 700px;
+				margin: 0 auto;
+			}
+		}
+	}
+}

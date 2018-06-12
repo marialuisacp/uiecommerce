@@ -1,0 +1,57 @@
+[
+	{
+		"store": "BRIGADEIRO",
+		"address": "AV.BRIG.LUIZ ANTONIO, 2013",
+		"latLong": [-23.565979, -46.647231]
+	},
+	{
+		"store": "GUARAPIRANGA",
+		"address": "AV.GUARAPIRANGA, 752",
+		"latLong": [-23.664758, -46.721529]
+	},
+	{
+		"store": "JOÃO DIAS",
+		"address": "AV.GUIDO CALOI, 25",
+		"latLong": [-23.646818, -46.729119]
+	},
+	{
+		"store": "CIDADE DUTRA",
+		"address": "AV. SENADOR TEOTÔNIO VILELA, 2926",
+		"latLong": [-23.726088, -46.700813]
+	},
+	{
+		"store": "INTERLAGOS",
+		"address": "AV. SARGENTO GERALDO SANTANA, 1491",
+		"latLong": [-23.663397, -46.679989]
+	},
+	{
+		"store": "COTIA",
+		"address": "AV. PROFº JOSÉ BARRETO, 1635",
+		"latLong": [-23.601611, -46.912989]
+	},
+	{
+		"store": "AEROPORTO",
+		"address": "AV. WASHINGTON LUIZ, 5859",
+		"latLong": [-23.628672, -46.667602]
+	},
+	{
+		"store": "ITAIM BIBI",
+		"address": "AV. JOÃO CACHOEIRA, 899",
+		"latLong": [-23.587456, -46.676053]
+	},
+	{
+		"store": "TABOÃO DA SERRA",
+		"address": "RUA JOÃO BATISTA DE OLIVEIRA, 47 / 329",
+		"latLong": [-23.609335, -46.752974]
+	},
+	{
+		"store": "RICARDO JAFET",
+		"address": "AV. DR. RICARDO JAFET, 1501 - VILA STA.EULÁLIA",
+		"latLong": [-23.589379, -46.619349]
+	},
+	{
+		"store": "MOOCA",
+		"address": "RUA JAVARI, 403 - MOÓCA",
+		"latLong": [-23.554010, -46.602033]
+	}
+]

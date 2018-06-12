@@ -1,0 +1,258 @@
+[
+	{
+		"id": 0,
+		"name": "Quadro Harry Potter",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_01.png",
+		"category": "decoration",
+		"price": 45.99
+	},
+	{
+		"id": 1,
+		"name": "Cadeira",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_02.png",
+		"category": "several",
+		"price": 19.99
+	},
+	{
+		"id": 2,
+		"name": "Xícara 'O poderoso paizão'",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_03.png",
+		"category": "several",
+		"price": 15.99
+	},
+	{
+		"id": 3,
+		"name": "Almofadas geométricas",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_04.png",
+		"category": "decoration",
+		"price": 65.99
+	},
+	{
+		"id": 4,
+		"name": "Luminárias",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_05.png",
+		"category": "decoration",
+		"price": 19.99
+	},
+	{
+		"id": 5,
+		"name": "Chinelo Girl Power",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_06.png",
+		"category": "clothing",
+		"price": 29.99
+	},
+	{
+		"id": 6,
+		"name": "Blusa Harry Potter",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_07.png",
+		"category": "clothing",
+		"price": 105.99
+	},
+	{
+		"id": 7,
+		"name": "Xícara de cacto",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_08.png",
+		"category": "several",
+		"price": 32.99
+	},
+	{
+		"id": 8,
+		"name": "Tênis rosa",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_09.png",
+		"category": "clothing",
+		"price": 229.99
+	},
+	{
+		"id": 9,
+		"name": "Xícara verde",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_10.png",
+		"category": "several",
+		"price": 19.99
+	},
+		{
+		"id": 10,
+		"name": "Xícara cinza",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_11.png",
+		"category": "several",
+		"price": 18.99
+	},
+	{
+		"id": 11,
+		"name": "Conjunto de almofadas",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_12.png",
+		"category": "decoration",
+		"price": 79.99
+	},
+	{
+		"id": 12,
+		"name": "Tênis",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_13.png",
+		"category": "clothing",
+		"price": 155.99
+	},
+	{
+		"id": 13,
+		"name": "Blusa rosa",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_14.png",
+		"category": "clothing",
+		"price": 44.99
+	},
+	{
+		"id": 14,
+		"name": "Perfume",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_15.png",
+		"category": "several",
+		"price": 194.99
+	},
+	{
+		"id": 15,
+		"name": "Quadro minimalista",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_16.png",
+		"category": "decoration",
+		"price": 95.99
+	},
+	{
+		"id": 16,
+		"name": "Quadros para decoração",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_17.png",
+		"category": "decoration",
+		"price": 84.99
+	},
+	{
+		"id": 17,
+		"name": "Luminária para quarto",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_18.png",
+		"category": "decoration",
+		"price": 67.99
+	},
+	{
+		"id": 18,
+		"name": "Almofada circular",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_19.png",
+		"category": "decoration",
+		"price": 39.99
+	},
+	{
+		"id": 19,
+		"name": "Relógio de madeira",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_20.png",
+		"category": "clothing",
+		"price": 409.99
+	},
+		{
+		"id": 20,
+		"name": "Quadro 'Titanic'",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_21.png",
+		"category": "decoration",
+		"price": 245.00
+	},
+	{
+		"id": 21,
+		"name": "Produtos cosméticos",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_22.png",
+		"category": "several",
+		"price": 19.99
+	},
+	{
+		"id": 22,
+		"name": "Quadro '1'",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_23.png",
+		"category": "decoration",
+		"price": 99.99
+	},
+	{
+		"id": 23,
+		"name": "Relógios minimalistas",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_24.png",
+		"category": "clothing",
+		"price": 650.99
+	},
+	{
+		"id": 24,
+		"name": "Anel",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_25.png",
+		"category": "clothing",
+		"price": 23.99
+	},
+	{
+		"id": 25,
+		"name": "Quadros de natureza",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_26.png",
+		"category": "decoration",
+		"price": 199.99
+	},
+	{
+		"id": 26,
+		"name": "Relógio de madeira",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_27.png",
+		"category": "clothing",
+		"price": 409.99
+	},
+	{
+		"id": 27,
+		"name": "Vidro para planta",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_28.png",
+		"category": "decoration",
+		"price": 59.99
+	},
+	{
+		"id": 28,
+		"name": "Quadros",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_29.png",
+		"category": "decoration",
+		"price": 29.99
+	},
+	{
+		"id": 29,
+		"name": "Mesa amarela",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_30.png",
+		"category": "several",
+		"price": 159.99
+	},
+	{
+		"id": 30,
+		"name": "Kit de maquiagem",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_31.png",
+		"category": "several",
+		"price": 89.99
+	},
+	{
+		"id": 31,
+		"name": "Relógio de parede",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"photo": "item_32.png",
+		"category": "decoration",
+		"price": 49.99
+	}
+]

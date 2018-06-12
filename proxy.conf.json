@@ -1,0 +1,9 @@
+{
+	"/rest": {
+	"target": "http://plausible-nitrogen.glitch.me/addresses",
+	"pathRewrite": {
+		"^/rest": ""
+	},
+		"secure": false
+	}
+}

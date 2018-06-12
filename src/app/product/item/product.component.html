@@ -1,0 +1,40 @@
+
+<div class="content box-page">
+
+	<a class="back-button" href="#/products">
+		Ver todos os produtos
+	</a>
+	<div class="box-product">
+		<div class="image-product" [ngStyle]="{'background-image':'url( assets/images/products/' + product.photo + ')'}" ></div>
+		<div class="box-info">
+			<h2 class="name"> {{ product.name }} </h2>
+			<p class="price"> R$ {{ product.price }} </p>
+			<p class="description"> {{ product.description }} </p>
+		</div>
+	</div> 
+
+	<div class="comments">
+		<h3 class="title"> Comentários </h3>
+		<p> Veja o que as pessoas estão comentando: </p>
+		
+		<ng4-loading-spinner> </ng4-loading-spinner>
+
+		<div class="blank-state" *ngIf="comments.length == 0">
+			<p>
+				Este produto ainda não tem nenhum comentário, seja o primeiro a comentar.
+			</p>
+		</div>
+		<div class="comment" *ngFor="let com of comments">
+			<div class="photo" [ngStyle]="{'background-image':'url( assets/images/users/' + com.photo + ')'}" ></div>
+			<div class="person">
+				<p class="name"> {{ com.person }} </p>
+				<p class="text"> {{ com.text }} </p>
+			</div>			
+		</div>
+
+		<div class="box-new-comment">
+			<textarea [(ngModel)]="txtComment" placeholder="Escreva um comentário..."></textarea>
+			<button class="add-comment" *ngIf="txtComment != ''" (click)="addComment()"> Adicionar comentário </button>
+		</div>
+	</div>
+</div>

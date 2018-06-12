@@ -1,0 +1,230 @@
+$item-width: 400px;
+$user-width: 60px;
+
+.box-page{
+	padding-top: 40px;
+	.back-button{
+		background-image: url('assets/images/icon-back.png');
+		background-size: 20px 20px;
+		background-repeat: no-repeat;
+		background-position: 0px 10px;
+		padding: 12px;
+		padding-left: 30px;
+		color: #999;
+		margin-bottom: 20px;
+	}
+	.box-product{
+		padding-top: 40px;
+		.image-product{
+			width: $item-width;
+			height: $item-width;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: $item-width $item-width;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.box-info{
+			margin-left: 30px;
+			display: inline-block;
+			width: 50%;
+			.name{
+				font-size: 30px;
+				padding: 0;
+				margin: 0;
+				text-align: left;
+				border-bottom: solid 1px #eee;
+				padding-top: 15px;
+				padding-bottom: 30px;
+			}
+			.price{
+				font-family: 'Nanum Pen Script', cursive;
+				font-size: 36px;
+				text-align: left;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+		}
+	}
+	.blank-state{
+		text-align: center;
+		padding: 20px;
+		&, *{
+			color: #ccc;
+			font-size: 18px;
+		}
+	}
+	.comments{
+		margin: 30px auto;
+		.title{
+			font-size: 30px;
+			padding: 0;
+			margin: 0;
+			text-align: left;
+			border-bottom: solid 1px #eee;
+			padding-top: 15px;
+			padding-bottom: 30px;
+		}
+		.comment{
+			border-bottom: solid 1px #eee;
+			padding: 20px;
+			max-width: 85%;
+			.photo{
+				display: inline-block;
+				width: $user-width;
+				height: $user-width;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: $user-width $user-width;
+				border-radius: 30px;
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 15px;
+			}
+			.person{
+				display: inline-block;
+				max-width: 90%;
+				.name{
+					font-size: 16px;
+					font-style: italic;
+					padding: 0 !important;
+					margin: 0 !important;
+				}
+				.text{
+
+				}
+			}
+		}
+	}
+}
+
+.box-new-comment{
+	margin-top: 30px;
+	padding: 5px 20px;
+	padding-bottom: 20px;
+	border: solid 1px #eee;
+	textarea{
+		resize: none;
+		outline: none;
+		width: 100%;
+		border: none;
+		margin: 20px auto;
+		font-family: 'Lato', sans-serif;
+		height: 60px;
+	}
+	textarea::-webkit-input-placeholder {
+		font-family: 'Lato', sans-serif;
+	}
+	textarea:-moz-placeholder {
+		font-family: 'Lato', sans-serif;
+	}
+	textarea::-moz-placeholder {
+		font-family: 'Lato', sans-serif;
+	}
+	textarea:-ms-input-placeholder {
+		font-family: 'Lato', sans-serif;
+	}
+	.add-comment{
+		border: none;
+		background: #6e8496;
+		color: #fff;
+		padding: 15px 30px;
+		outline: none;
+	}
+}
+
+@media only screen and (max-width: 1225px){
+	.box-page{
+		/*width: 100%;
+		max-width: 100%;
+		padding: 40px;*/
+		.box-product{
+			.image-product{
+				width: $item-width;
+				padding-bottom: $item-width;
+				height: 0;
+				background-size: $item-width $item-width;
+			}
+			.box-info{
+				width: 30%;
+			}
+		}
+		.comments{
+			.comment{
+				.person{
+					max-width: 70% !important;
+				}
+			}
+			.box-new-comment{
+				max-width: 90% !important;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 920px){
+	.box-page{
+		padding: 40px;
+		.box-product{
+			.image-product{
+				padding: 0;
+				width: 50%;
+				padding-bottom: 50%;
+				margin:0 ;
+				height: 0;
+				display: inline-block;
+				background-size: $item-width $item-width;
+			}
+			.box-info{
+				width: 30%;
+			}
+		}
+		.comments{
+			width: 90%;
+		}
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.box-page{
+		padding: 0px;
+		max-width: 100%;
+		.box-product{
+			margin: 0 auto;
+			.image-product{
+				width: 90%;
+				padding-bottom: 50%;
+			}
+			.box-info{
+				width: 90%;
+			}
+		}
+		.comments{
+			.comment{
+				.photo{
+					display: inline-block;
+					width: 40px;
+					height: 40px;
+					background-size: 40px 40px;
+					margin-right: 10px;
+				}
+				.person{
+					position: relative;
+					top: 10px;
+					display: inline-block;
+					max-width: 90%;
+					.name{
+
+					}
+					.text{
+						position: relative;
+						top: 10px;
+						left: -50px;
+						margin-bottom: 20px;
+						width: 150%;
+					}
+				}
+			}
+		}
+	}
+}

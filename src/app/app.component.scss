@@ -1,0 +1,62 @@
+/*
+ *	App Styles
+ *	--------------
+ *	Classes presentes em todo o projeto
+ *
+ */
+
+/* Import fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
+/* Fonts padrao */
+
+body *, p, a, label, h1, h2, h3, h4{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+	color: #454545;
+}
+
+/* Areas */
+
+body *{
+	outline: none !important;
+}
+.content{
+	/*min-width: 1200px;*/
+	/*width: 1200px;*/
+	max-width: 1200px;
+	margin: 0 auto;
+	display: block;
+}
+
+@media only screen and (max-width: 1200px){
+	.content{
+		min-width: 100%;
+		width: 100%;
+		max-width: 100%;
+		padding: 20px;
+		box-sizing: border-box !important;
+	}	
+}
+
+/* Inputs */
+
+input, select{
+	outline: none !important;
+	border-radius: 25px;
+	/*height: 15px;*/
+	padding: 10px 25px;
+	border: solid 2px #eee;
+}
+
+input::-webkit-input-placeholder, input:-ms-input-placeholder, input:-moz-placeholder, input::-moz-placeholder{
+	color: #eee;
+}

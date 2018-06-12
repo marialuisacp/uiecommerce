@@ -1,0 +1,24 @@
+/*
+ *	HTML Styles
+ *	--------------
+ *	areas do html geral
+ *
+ */
+
+html{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+body{
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: #fdfdfd;
+	background-image: url('assets/images/bg.png');
+	background-position: center;
+	background-size: 50px 50px;
+}
+/*html,body{
+	position: relative;
+	overflow: auto;
+	min-height:100%;
+}*/

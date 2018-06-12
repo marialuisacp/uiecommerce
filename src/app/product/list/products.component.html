@@ -1,0 +1,42 @@
+
+
+<div class="content">
+	<div class="filter">
+		<div class="box-input filter-input">
+			<input type="text" name="search" [(ngModel)]="term" placeholder="Pesquisar produto por nome...">
+		</div>
+		<div class="box-order">
+			<div class="box-input">
+				<p class="label"> Ordenar por </p>
+				<select [(ngModel)]="typeOrder" (ngModelChange)="orderChanged($event)">
+					<option value="0" disabled selected> Selecione... </option>
+					<option value="1"> Menor preço </option>
+					<option value="2"> Maior preço </option>
+					<option value="3"> A-Z </option>
+					<option value="4"> Z-A </option>
+				</select>
+			</div>
+			<div class="box-input">
+				<p class="label"> Categoria </p>
+				<select [(ngModel)]="category" (ngModelChange)="categoryChanged($event)">
+					<option value="" disabled selected> Selecione... </option>
+					<option value="all"> Todas </option>
+					<option value="clothing"> Vestuário </option>
+					<option value="decoration"> Decoração </option>
+					<option value="several"> Diversos </option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<ng4-loading-spinner> </ng4-loading-spinner>
+	<div class="gallery-products">
+		<a *ngFor="let prod of filterProducts(allProducts) | filter:term; let i = index" class="item item-{{prod.id}}" (click)="goToProduct(prod.id)">
+			<div class="image-product" [ngStyle]="{'background-image':'url( assets/images/products/' + prod.photo + ')'}" ></div>
+			<div class="box-info">
+				<p class="name"> {{ prod.name }} </p>
+				<p class="price"> R$ {{ prod.price }} </p>
+			</div>
+		</a>
+	</div> 
+</div>
+
