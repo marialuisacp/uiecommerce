@@ -20,11 +20,11 @@ import { StoresComponent } from './store/stores.component';
 import { ProductsService } from './product/list/products.service';
 
 const appRoutes: Routes = [
-	{	path: 'home', redirectTo: '', pathMatch: 'full'},
+	{ 	path: '', redirectTo: 'home', pathMatch: 'full' },
 	{ 	path: 'product/:id', component: ProductComponent },
 	{ 	path: 'products', component: ListProductsComponent },
 	{ 	path: 'stores', component: StoresComponent },
-	{ 	path: '', component: HomeComponent },
+	{ 	path: 'home', component: HomeComponent },
 	{	path: '**', component: AppComponent }
 ];
 
@@ -43,7 +43,7 @@ const appRoutes: Routes = [
 			appRoutes,
 			{ 
 				enableTracing: true,
-				useHash: true
+				useHash: false
 			}
 		),
 		BrowserModule,
